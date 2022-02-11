@@ -8,27 +8,27 @@
     <title>Document</title>
 </head>
 <body>
-    <header>
-        <nav class="menu clearfix">
-             
-            <ul class="left">
-                <li"><a href="#"><img src="./asset/img/logo-small.png" alt="logo dropbox" id="logo"></a></li>
-                <li><a href="#">Perchè Dropbox?</a></li>
-                <li><a href="#">Funzioni</a></li>
-                <li><a href="#">Piani e Prezzi</a></li>
-            </ul>
-    
-            <ul class="right">
-                <li><a href="#">Supporto</a></li>
-                <li><a href="#">Contatta l'ufficio vendite</a></li>
-                <li><a href="#">Accedi</a></li>
-                <li><a href="#" class="button">Inizia</a></li>
-            </ul>
+   
+    <nav class="menu clearfix">
             
-        </nav>
-    </header>
+        <ul class="left">
+            <li"><a href="#"><img src="./asset/img/logo-small.png" alt="logo dropbox" id="logo"></a></li>
+            <li><a href="#">Perchè Dropbox?</a></li>
+            <li><a href="#">Funzioni</a></li>
+            <li><a href="#">Piani e Prezzi</a></li>
+        </ul>
 
-    <main>
+        <ul class="right">
+            <li><a href="#">Supporto</a></li>
+            <li><a href="#">Contatta l'ufficio vendite</a></li>
+            <li><a href="#">Accedi</a></li>
+            <li><a href="#" class="button">Inizia</a></li>
+        </ul>
+        
+    </nav>
+    
+
+    <header>
         <section class="container clearfix">
             <div> <!-- Titolo -->
                 <h1>Tutto ciò che ti serve per il lavoro, in un unico posto </h1>
@@ -39,14 +39,75 @@
                     <p>Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stesso posto. Dropbox Business è più di uno spazio di archiviazione sicuro: è un modo intelligente e integrato per ottimizzare il flusso di lavoro esistente.</p>
                     <a href="#" class="button">Inizia la tua prova gratuita</a>
                     <p id="annulla">Annulla in qualsiasi momento</p>
+                    <a href="#DropboxBusiness" id="arrow">&#8615;</a>
                 </div>
+
                 <div class="img-dx"> <!-- Immagine -->
                     <img src="./asset/img/jumbo.png" alt="layout dropbox" class="layout-img">
                 </div>
-            </div>
-            
+            </div>   
         </section>
+    </header>
+
+    <main class="container2">
+        <h2 id="DropboxBusiness">Trova il piano Dropbox Business che fa per te</h2>
+        <input type="radio" name="fatturazione mensile" value="fatturazione mensile">Fatturazione mensile
+        <input type="radio" name="fatturazione annuale" value="fatturazione annuale">Fatturazione annuale
+    
+        <div class="offerte">
+            <div class="coloumn">
+                <div class="quantity">Singolo</div>
+                <div class="prices">
+                    <h3>Professional</h3>
+                    <h4>19,99 &#8364</h4>
+                    <p>/mese</p>
+                    <br>
+                    <p>1 utente</p>
+                    <p>3 TB di spazio di archiviazione sicuro</p>
+                    <p>Funzione di produttività premium e condivisione file semplice e sicura</p>
+                    <p id="prova"><a href="#">Prova gratis per 30 giorni</a></p>
+                    <span>oppure </span><a href="#" id="acquista">acquista ora</a>
+                </div>
+                
+                
+            </div>
+
+            <div class="coloumn">
+                <div class="quantity">Team</div>
+                <div class="prices">
+                    <h3>Standard</h3>
+                    <h4>19,99 &#8364</h4>
+                    <p>/utente / mese, a partire da 3 utenti</p>
+                    <br>
+                    <p>1 utente</p>
+                    <p>3 TB di spazio di archiviazione sicuro</p>
+                    <p>Funzione di produttività premium e condivisione file semplice e sicura</p>
+                    <p id="prova"><a href="#">Prova gratis per 30 giorni</a></p>
+                    <span>oppure </span><a href="#" id="acquista">acquista ora</a>
+                </div>
+                
+            </div>
+
+            <div class="coloumn">
+                <div class="quantity">Team</div> 
+                <div class="prices">
+                    <h3>Advanced</h3>
+                    <h4>19,99 &#8364</h4>
+                    <p>/utente / mese, a partire da 3 utenti</p>
+                    <br>
+                    <p>1 utente</p>
+                    <p>3 TB di spazio di archiviazione sicuro</p>
+                    <p>Funzione di produttività premium e condivisione file semplice e sicura</p>
+                    <p id="prova"><a href="#">Prova gratis per 30 giorni</a></p>
+                    <span>oppure </span><a href="#" id="acquista">acquista ora</a>
+                </div>
+            </div>
+        </div>
+    
+    
     </main>
+
+
 
 </body>
 </html>
