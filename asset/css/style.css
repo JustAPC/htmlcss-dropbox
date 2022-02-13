@@ -17,10 +17,8 @@ body {
 nav {
     width: 100%;
     position: fixed;
-}
-.menu {
-    width: 100%;
     background-color: white;
+    z-index: 1;
 }
 .float-right {
     float: right;
@@ -28,19 +26,29 @@ nav {
 .float-left {
     float: left;
 }
-.menu ul li {
+nav ul li {
     display: inline-block;
     list-style-type: none;
     padding: 20px;
+    line-height: 100%;
+    vertical-align: middle;
 }
-.menu ul li a {
+nav ul li a {
     text-decoration: none;
     color: black;
+    text-align: center;
+    vertical-align: middle;
 }
-.left li:hover{
-    border-bottom: 2px solid black;
+#logo {
+    width: 90%;
 }
-.right li:hover{
+#button {
+    background-color: #0061FF;
+    padding: 10px 15px;
+    color: white;
+    text-decoration: none;
+}
+.hover:hover{
     border-bottom: 2px solid black;
 }
 .button {
@@ -86,7 +94,7 @@ header {
 }
 .container2 {
     width: 70%;
-    margin: 10% auto;
+    margin: 10% auto 5% auto;
 }
 h2 {
     font-size: 3rem;
@@ -98,9 +106,15 @@ h3 {
 h4 {
     font-size: 1.5rem;
 }
+h5 {
+    font-size: 1.3rem;
+    display: inline-block;
+}
 input[type="radio"] {
-    margin-right: 1%;
     margin-bottom: 3%;
+}
+.fatturazione {
+    margin-right: 1%;
 }
 .container3 {
     width: 100%;
@@ -211,7 +225,7 @@ input[type="radio"] {
 }
 .table {
     width: 100%;
-    margin-top: 5%;
+    margin-top: 10%;
 }
 .table-row {
     margin-bottom: 5%;
@@ -231,4 +245,184 @@ input[type="radio"] {
 .table-row p {
     padding-top: 5%;
     line-height: 150%;
+}
+.affiliate-teams-text {
+    width: 50%;
+}
+.affiliate-teams-text h3{
+    line-height: 150%;
+    margin: 3% 0px;
+}
+.affiliate-teams-text a{
+    color: #0061FF;
+}
+.affiliates-table{
+    width: 100%;
+    height: 500px;
+}
+.affiliates-coloumn {
+    height: 100%;
+    width: calc(50% / 2);
+}
+.affiliates-coloumn2{
+    background-color: #F5F5F5;
+    height: 100%;
+    width: 50%;
+}
+.affiliates {
+    width: 50%;
+    height: 50%;
+    border: 1px solid white;
+}
+.white {
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(109deg) brightness(101%) contrast(105%);
+}
+.designit{
+    width: 60%;
+    transform: translate(30%, 230%);
+}
+.green {
+    background-color: #A2D39B;
+}
+.arizona {
+    width: 50%;
+    transform: translate(50%, 90%);
+}
+.pink{
+    background-color: #61082B;
+}
+.florida {
+    width: 60%;
+    transform: translate(30%, 400%);
+}
+.lightblue {
+    background-color: #0093CE;
+}
+.topps {
+    width: 50%;
+    transform: translate(50%, 170%);
+}
+.orange {
+    background-color: #FF1C1C;
+}
+.wbr{
+    width: 60%;
+    transform: translate(30%, 220%);
+}
+.red{
+    background-color: #D5001F;
+}
+.hearst {
+    transform: translate(35%, 800%);
+    width: 60%;
+}
+.aqua {
+    background-color: #B4D0E7;
+}
+.lonely{
+    width: 60%;
+    transform: translate(30%, 130%);
+}
+.blue {
+    background-color: #0D2481;
+}
+.cco {
+    width: 60%;
+    transform: translate(30%, 80%);
+}
+.yellow{
+    background-color: #FFD830;
+}
+.designit2 {
+    width: 20%;
+    transform: translate(50%, 100%);
+}
+.rule2 {
+    height: 1px;
+    width: 5%;
+    background-color: #c4c4c4;
+    margin: 10%;
+}
+.affiliates-coloumn2 p {
+    width: 80%;
+    margin: 5% auto;
+    line-height: 150%;
+}
+.dropbox-business {
+    background-color: #B4D0E7;
+    width: 100%;
+}
+.dropbox-business h3 {
+    font-size: 2.5rem;
+    width: 40%;
+    margin-left: 10%;
+    padding: 5%;
+    color: #61082b;
+    display: inline-block;
+}
+.dropbox-business a {
+    text-decoration: none;
+    padding: 0.5% 3%;
+    background-color: white;
+    margin-right: 20%;
+    margin-top: 6%;
+    color: black;
+}
+.faq {
+    margin-bottom: 7%;
+}
+.faq hr {
+    margin: 3% 0;
+}
+.faq span{
+    margin-left: 30%;
+    font-size: 1.2rem;
+}
+.faq p {
+    display: none;
+}
+footer {
+    width: 100%;
+    background-color: black;
+    height: 1000px;
+}
+.footer-table {
+    width: 80%;
+    margin: 0 auto;
+    transform: translate(0%, 30%);
+    color: white;
+}
+.footer-coloumn {
+    width: calc(100% / 5);
+    height: 100%;
+}
+.footer-table h5 {
+    margin: 10% 0;
+}
+.footer-table a {
+    padding: 3% 0;
+    display: block;
+    text-decoration: none;
+    color: white;
+}
+.rule3{
+    color: lightgrey;
+    width: 5%;
+    height: 1px;
+    border: 1px solid #494949;
+    margin: 10% 10%;
+}
+
+.rule3 a{
+    color: white;
+    margin: 70% 0;
+    text-decoration: none;
+    display: block;
+}
+
+.rule3 a::after {
+    content: "\25B2";
+    font-size: 0.5rem;
+    line-height: 10%;
+    vertical-align: middle;
 }

@@ -9,26 +9,29 @@
 </head>
 <body>
    
-    <nav class="menu clearfix">
-            
-        <ul class="float-left">
-            <li><a href="#"><img src="./asset/img/logo-small.png" alt="logo dropbox" id="logo"></a></li>
-            <li><a href="#">Perchè Dropbox?</a></li>
-            <li><a href="#">Funzioni</a></li>
-            <li><a href="#">Piani e Prezzi</a></li>
-        </ul>
-
-        <ul class="float-right">
-            <li><a href="#">Supporto</a></li>
-            <li><a href="#">Contatta l'ufficio vendite</a></li>
-            <li><a href="#">Accedi</a></li>
-            <li><a href="#" class="button">Inizia</a></li>
-        </ul>
+    <nav class="clearfix">
+        <div class="float-left">
+            <ul>
+                <li><a href="#"><img src="./asset/img/logo-small.png" alt="logo dropbox" id="logo"></a></li>
+                <li class="hover"><a href="#">Perchè Dropbox?</a></li>
+                <li class="hover"><a href="#">Funzioni</a></li>
+                <li class="hover"><a href="#">Piani e Prezzi</a></li>
+            </ul>
+        </div>
+        <div class="float-right">
+           <ul>
+                <li class="hover"><a href="#">Supporto</a></li>
+                <li class="hover"><a href="#">Contatta l'ufficio vendite</a></li>
+                <li class="hover"><a href="#">Accedi</a></li>
+                <li><a href="#" id="button">Inizia</a></li>
+            </ul> 
+        </div>
+       
         
     </nav>
     
 
-    <header>
+    <header> <!-- Header -->
         <section class="container clearfix">
             <div> <!-- Titolo -->
                 <h1>Tutto ciò che ti serve per il lavoro, in un unico posto </h1>
@@ -41,7 +44,6 @@
                     <p id="annulla">Annulla in qualsiasi momento</p>
                     <a href="#DropboxBusiness" id="arrow">&#8615;</a>
                 </div>
-
                 <div class="img-dx float-right"> <!-- Immagine -->
                     <img src="./asset/img/jumbo.png" alt="layout dropbox" class="layout-img float-right">
                 </div>
@@ -53,8 +55,10 @@
         <section> <!-- Dropbox business plans -->
             <div>
                 <h2 id="DropboxBusiness">Trova il piano Dropbox Business che fa per te</h2>
-                <input type="radio" name="fatturazione mensile">Fatturazione mensile
-                <input type="radio" name="fatturazione annuale">Fatturazione annuale
+                <div>
+                    <input type="radio" name="fatturazione mensile" value="Fatturazione mensile"><span class="fatturazione">Fatturazione mensile</span>
+                    <input type="radio" name="fatturazione annuale" value="Fatturazione annuale"><span class="fatturazione">Fatturazione annuale</span> 
+                </div>
             </div>
         </section>
     
@@ -208,11 +212,123 @@
                     </div>
                 </div>
             </div>
-            
-            
+        </section>
+
+        <section> <!-- Team affiliati -->
+            <div class="affiliate-teams-text">
+                <h3>Più di 500 team <br>utilizzano Dropbox Business</h3>
+                <a href="#clienti">Scopri di più sui nostri clienti</a>    
+            </div>
         </section>
     </main>
 
+        <aside class="affiliates-table clearfix" id="clienti">
+            <div class="affiliates-coloumn float-left">
+                <div class="affiliates float-left green"><img src="./asset/img/designit.svg" alt="logo designit" class=" white designit"></div>
+                <div class="affiliates float-left pink"><img src="./asset/img/arizona_state_university.svg" alt="logo arizona state university" class="white arizona"></div>
+                <div class="affiliates float-left lightblue"><img src="./asset/img/university_of_florida.svg" alt="logo university of florida" class="white florida"></div>
+                <div class="affiliates float-left orange"><img src="./asset/img/topps.svg" alt="logo topps" class="white topps"></div>
+            </div>
+
+            <div class="affiliates-coloumn2 float-left">
+                <img src="./asset/img/designit.svg" alt="logo designit" class="designit2">
+                <div class="rule2"></div>
+                <p>"I membri del nostro team lavorano costantemente in Paesi, fusi orari e uffici diversi. Ora molte soluzioni sono compatibili con queste esigenze, ma nessuna è facile quanto Dropbox e Dropbox Paper. Ora molte soluzioni sono compatibili con queste esigenze, ma nessuna è facile quanto Dropbox Paper".</p>
+                <p>Morten Thomsen, Global IT Lead</p>
+            </div>
+
+            <div class="affiliates-coloumn float-right">
+                <div class="affiliates float-left red"><img src="./asset/img/world_bicycle_relief.svg" alt="logo world bicycle relief" class=" white wbr"></div>
+                <div class="affiliates float-left aqua"><img src="./asset/img/hearst_corp.svg" alt="logo hearst" class="white hearst"></div>
+                <div class="affiliates float-left blue"><img src="./asset/img/lonely_planet.svg" alt="lonely planet" class="white lonely"></div>
+                <div class="affiliates float-left yellow"><img src="./asset/img/clear_channel.svg" alt="logo clear channel" class="white cco"></div>
+            </div>
+        </aside>
+        <aside>
+            <div class="dropbox-business">
+                <h3>Porta Dropbox Business nella tua azienda.</h3>
+                <a href="#" class="float-right">Inizia la tua prova gratuita</a>
+            </div>
+        </aside>
+    
+        
+    
+
+    <article class="container2 faq">
+        <div>
+            <h3>Domande frequenti</h3>
+            <hr>
+            <h5>Qual'è la differenza tra Dropbox Business Standard e Dropbox Business Advanced?</h5>
+            <span>&#9660;</span>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, dolor ab soluta ex repudiandae nemo perferendis incidunt a sint. Magnam sunt aut quibusdam. Molestiae repellendus cum accusantium doloribus officiis ipsam?</p>
+            <hr>  
+        </div>
+        <div>
+            <h5>Qual'è la differenza tra Dropbox Business Standard e Dropbox Business Advanced?</h5>
+            <span>&#9660;</span>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, dolor ab soluta ex repudiandae nemo perferendis incidunt a sint. Magnam sunt aut quibusdam. Molestiae repellendus cum accusantium doloribus officiis ipsam?</p>
+            <hr>  
+        </div>
+        <div>
+            <h5>Qual'è la differenza tra Dropbox Business Standard e Dropbox Business Advanced?</h5>
+            <span>&#9660;</span>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, dolor ab soluta ex repudiandae nemo perferendis incidunt a sint. Magnam sunt aut quibusdam. Molestiae repellendus cum accusantium doloribus officiis ipsam?</p>
+            <hr>  
+        </div>
+        <div>
+            <h5>Qual'è la differenza tra Dropbox Business Standard e Dropbox Business Advanced?</h5>
+            <span>&#9660;</span>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, dolor ab soluta ex repudiandae nemo perferendis incidunt a sint. Magnam sunt aut quibusdam. Molestiae repellendus cum accusantium doloribus officiis ipsam?</p>
+            <hr>  
+        </div>    
+    </article>
+    
+    <footer>
+        <div class="footer-table clearfix"> <!--  -->
+            <div class="footer-coloumn float-left">
+                <h5>Dropbox</h5>
+                <a href="#">Applicazione desktop</a>
+                <a href="#">Perchè Dropbox</a>
+                <a href="#">Piani</a>
+                <a href="#">Sicurezza</a>
+                <a href="#">Funzioni</a>
+            </div>
+            <div class="footer-coloumn float-left">
+                <h5>Prodotti</h5>
+                <a href="#">Applicazione desktop</a>
+                <a href="#">Perchè Dropbox</a>
+                <a href="#">Piani</a>
+                <a href="#">Sicurezza</a>
+                <a href="#">Funzioni</a>
+            </div>
+            <div class="footer-coloumn float-left">
+                <h5>Azienda</h5>
+                <a href="#">Applicazione desktop</a>
+                <a href="#">Perchè Dropbox</a>
+                <a href="#">Piani</a>
+                <a href="#">Sicurezza</a>
+                <a href="#">Funzioni</a>
+            </div>
+            <div class="footer-coloumn float-left">
+                <h5>Supporto</h5>
+                <a href="#">Applicazione desktop</a>
+                <a href="#">Perchè Dropbox</a>
+                <a href="#">Piani</a>
+                <a href="#">Sicurezza</a>
+                <a href="#">Funzioni</a>
+            </div>
+            <div class="footer-coloumn float-left">
+                <h5>Community</h5>
+                <a href="#">Applicazione desktop</a>
+                <a href="#">Perchè Dropbox</a>
+                <a href="#">Piani</a>
+            </div>
+        </div>
+
+        <div class="rule3"><a href="#">Italiano </a></div>
+
+        
+    </footer>
 
 
 </body>
