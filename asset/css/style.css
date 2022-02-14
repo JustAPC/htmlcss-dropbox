@@ -127,19 +127,19 @@ input[type="radio"] {
 .coloumn1 {
     width: calc((100% / 3) - 2%);
     margin-right: 1%;
-    height: 100%;
+    min-height: 1200px;
     border: 1px solid #c4c4c4;
 }
 .coloumn2{
     width: calc((100% / 3) - 2%);
     margin: 0 2%;
-    height: 100%;
+    min-height: 1200px;
     border: 1px solid #c4c4c4;
 }
 .coloumn3{
     width: calc((100% / 3) - 2%);
     margin-left: 1%;
-    height: 100%;
+    min-height: 1200px;
     border: 1px solid #c4c4c4;
 }
 .quantity {
@@ -241,14 +241,24 @@ input[type="radio"] {
 }
 .table {
     width: 100%;
-    margin-top: 10%;
+    margin-top: 20%;
 }
 .table-row {
-    margin-bottom: 5%;
+    margin-bottom: 15%;
 }
 .table-coloumn {
-    width: calc(100% / 3 - 100px);
-    margin: auto 50px;
+    width: calc(100% / 3 - 2%);
+    margin-right: 1%;
+    height: 500px;  
+}
+.table-coloumn2 {
+    width: calc(100% / 3 - 2%);
+    margin: 0 2%;
+    height: 500px;  
+}
+.table-coloumn3 {
+    width: calc(100% / 3 - 2%);
+    margin-left: 1%;
     height: 500px;  
 }
 .table-row-titles h4 {
@@ -299,6 +309,10 @@ input[type="radio"] {
 }
 .green {
     background-color: #A2D39B;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border: 10px solid #D0E9CD;
 }
 .arizona {
     width: 50%;
@@ -428,14 +442,12 @@ footer {
     border: 1px solid #494949;
     margin: 10% 10%;
 }
-
 .rule3 a{
-    color: white;
+    color: #303030;
     margin: 70% 0;
     text-decoration: none;
     display: block;
 }
-
 .rule3 a::after {
     content: "\25B2";
     font-size: 0.5rem;
