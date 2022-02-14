@@ -58,16 +58,25 @@ nav ul li a {
 .hover:hover{
     border-bottom: 2px solid black;
 }
+.hover:hover .dropdown-content {
+    display: block;
+}
 .dropdown {
     position: relative;
 }
 .dropdown-content {
-    display: none;
-}
-.dropdown-content:hover {
-    display: block;
     position: absolute;
-    min-width: 160px;
+    display: none;
+    width: 200px;
+    bottom: -247%;
+    left: 0;
+    background-color: lightgrey;
+    padding: 10%;
+}
+.dropdown-content a {
+    display: block;
+    margin-bottom: 10%;
+    text-decoration: none;
 }
 .button {
     background-color: #0061FF;
@@ -322,6 +331,7 @@ input[type="radio"] {
 .logo {
     width: 50%;
     vertical-align: middle;
+    text-align: center;
 }
 .logo2 {
     width: 20%;
@@ -396,11 +406,18 @@ input[type="radio"] {
     margin-left: 30%;
     font-size: 1.2rem;
 }
-.faq p {
+.hover-content {
     display: none;
 }
-.faq h5:hover .hover-content{
+.question:hover .hover-content {
     display: block;
+    padding: 5% 0;
+}
+.question:hover .arrow-down {
+    transform: rotate(180deg);
+}
+.question a {
+    color: black;
 }
 footer {
     width: 100%;
