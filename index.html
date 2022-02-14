@@ -4,50 +4,50 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="./asset/css/style.css">
     <title>Dropbox</title>
 </head>
 <body>
-   
-    <nav class="clearfix"> <!-- Barra di navigazione -->
-        <div class="float-left">
-            <ul>
-                <li><a href="#"><img src="./asset/img/logo-small.png" alt="logo dropbox" id="logo"></a></li>
-                <li class="hover"><a href="#">Perchè Dropbox?</a></li>
-                <li class="hover"><a href="#">Funzioni</a></li>
-                <li class="hover"><a href="#">Piani e Prezzi</a></li>
-            </ul>
-        </div>
-        <div class="float-right">
-           <ul>
-                <li class="hover"><a href="#">Supporto</a></li>
-                <li class="hover"><a href="#">Contatta l'ufficio vendite</a></li>
-                <li class="hover"><a href="#">Accedi</a></li>
-                <li><a href="#" id="button">Inizia</a></li>
-            </ul> 
-        </div>
-       
-        
-    </nav>
-    
-    <header> <!-- Header -->
-        <section class="container clearfix">
-            <div> <!-- Titolo -->
-                <h1>Tutto ciò che ti serve per il lavoro, in un unico posto </h1>
+  
+    <header>
+        <nav class="clearfix"> <!-- Barra di navigazione -->
+            <div class="float-left">
+                <ul>
+                    <li><a href="#"><img src="./asset/img/logo-small.png" alt="logo dropbox" id="logo"></a></li>
+                    <li class="hover"><a href="#">Perchè Dropbox?</a></li>
+                    <li class="hover"><a href="#">Funzioni</a></li>
+                    <li class="hover"><a href="#">Piani e Prezzi</a></li>
+                </ul>
             </div>
+            <div class="float-right">
+                <ul>
+                    <li class="hover"><a href="#">Supporto</a></li>
+                    <li class="hover"><a href="#">Contatta l'ufficio vendite</a></li>
+                    <li class="hover"><a href="#">Accedi</a></li>
+                    <li><a href="#" id="button">Inizia</a></li>
+                </ul> 
+            </div>    
+        </nav>
+        <div class="bg-lightblue">
+            <section class="container clearfix">
+                <div> <!-- Titolo -->
+                    <h1>Tutto ciò che ti serve per il lavoro, in un unico posto </h1>
+                </div>
 
-            <div class="description clearfix"> <!-- Descrizione -->
-                <div class="float-left left-text"> <!-- Testo -->
-                    <p>Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stesso posto. Dropbox Business è più di uno spazio di archiviazione sicuro: è un modo intelligente e integrato per ottimizzare il flusso di lavoro esistente.</p>
-                    <a href="#" class="button">Inizia la tua prova gratuita</a>
-                    <p id="annulla">Annulla in qualsiasi momento</p>
-                    <a href="#DropboxBusiness" id="arrow">&#8615;</a>
-                </div>
-                <div class="img-dx float-right"> <!-- Immagine -->
-                    <img src="./asset/img/jumbo.png" alt="layout dropbox" class="layout-img float-right">
-                </div>
-            </div>   
-        </section>
+                <div class="description clearfix"> <!-- Descrizione -->
+                    <div class="float-left left-text"> <!-- Testo -->
+                        <p>Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stesso posto. Dropbox Business è più di uno spazio di archiviazione sicuro: è un modo intelligente e integrato per ottimizzare il flusso di lavoro esistente.</p>
+                        <a href="#" class="button">Inizia la tua prova gratuita</a>
+                        <p id="annulla">Annulla in qualsiasi momento</p>
+                        <a href="#DropboxBusiness"><i class="fa-solid fa-arrow-down"></i></a>
+                    </div>
+                    <div class="img-dx float-right"> <!-- Immagine -->
+                        <img src="./asset/img/jumbo.png" alt="layout dropbox" class="layout-img float-right">
+                    </div>
+                </div>   
+            </section> 
+        </div>
     </header>
 
     <main class="container2">
@@ -63,16 +63,16 @@
     
         <section class="clearfix">  <!-- Tabella dei prezzi -->
             <div class="container3">
-                <div class="coloumn float-left"> <!-- Colonna 1 -->
-                    <div class="quantity">Singolo</div>
+                <div class="coloumn1 float-left"> <!-- Colonna 1 -->
+                    <div class="quantity"><i class="fa-regular fa-user"></i> Singolo</div>
                     <div class="row">
                         <h3 class="row1">Professional</h3>
                         <h4 class="row2">19,99 &#8364;</h4>
                         <p class="row2">/mese</p>
                         <br>
-                        <p class="row2">1 utente</p>
-                        <p class="row2">3 TB di spazio di archiviazione sicuro</p>
-                        <p class="row2">Funzione di produttività premium e condivisione file semplice e sicura</p>
+                        <p class="row2"><i class="fa-regular fa-user"></i> 1 utente</p>
+                        <p class="row2"><i class="fa-light fa-folder-blank"></i> 3 TB di spazio di archiviazione sicuro</p>
+                        <p class="row2"><i class="fa-solid fa-pen"></i> Funzione di produttività premium e condivisione file semplice e sicura</p>
                         <p class="row2 prova"><a href="#">Prova gratis per 30 giorni</a></p>
                         <span>oppure </span><a href="#" class="acquista">acquista ora</a>
                         <div class="rule"></div>
@@ -89,16 +89,16 @@
                     </div>
                 </div>
 
-                <div class="coloumn float-left"> <!-- Colonna 2 -->
-                    <div class="quantity">Team</div>
+                <div class="coloumn2 float-left"> <!-- Colonna 2 -->
+                    <div class="quantity"><i class="fa-regular fa-building"></i> Team</div>
                     <div class="row">
                         <h3 class="row1">Standard</h3>
                         <h4 class="row2">19,99 &#8364;</h4>
                         <p class="row2">/utente / mese, a partire da 3 utenti</p>
                         <br>
-                        <p class="row2">1 utente</p>
-                        <p class="row2">3 TB di spazio di archiviazione sicuro</p>
-                        <p class="row2">Funzione di produttività premium e condivisione file semplice e sicura</p>
+                        <p class="row2"><i class="fa-solid fa-user-plus"></i> 1 utente</p>
+                        <p class="row2"<i class="fa-light fa-folder-blank"></i> 3 TB di spazio di archiviazione sicuro</p>
+                        <p class="row2"><i class="fa-solid fa-pen"></i> Funzione di produttività premium e condivisione file semplice e sicura</p>
                         <p class="row2 prova"><a href="#">Prova gratis per 30 giorni</a></p>
                         <span>oppure </span><a href="#" class="acquista">acquista ora</a>
                         <div class="rule"></div>
@@ -117,16 +117,16 @@
                 </div>
             
 
-                <div class="coloumn float-left"> <!-- Colonna 3 -->
-                    <div class="quantity">Team</div> 
+                <div class="coloumn3 float-left"> <!-- Colonna 3 -->
+                    <div class="quantity"><i class="fa-regular fa-building"></i> Team</div> 
                     <div class="row">
                         <h3 class="row1">Advanced</h3>
                         <h4 class="row2">19,99 &#8364;</h4>
                         <p class="row2"> /utente / mese, a partire da 3 utenti</p>
                         <br>
-                        <p class="row2">1 utente</p>
-                        <p class="row2">3 TB di spazio di archiviazione sicuro</p>
-                        <p class="row2">Funzione di produttività premium e condivisione file semplice e sicura</p>
+                        <p class="row2"><i class="fa-solid fa-user-plus"></i> 1 utente</p>
+                        <p class="row2"><i class="fa-light fa-folder-blank"></i> 3 TB di spazio di archiviazione sicuro</p>
+                        <p class="row2"><i class="fa-solid fa-pen"></i> Funzione di produttività premium e condivisione file semplice e sicura</p>
                         <p class="row2 prova"><a href="#">Prova gratis per 30 giorni</a></p>
                         <span>oppure </span><a href="#" class="acquista">acquista ora</a>
                         <div class="rule"></div>
@@ -148,7 +148,7 @@
             
         <section class="paragrafo2"> <!-- Contatta l'ufficio vendite -->
             <div>
-                <div class="quantity2">Team</div>
+                <div class="quantity2"><i class="fa-regular fa-building"></i> Team</div>
                 <div class="row3">
                     <div class="row2 clearfix">
                         <a href="#" class="button2 float-right">Contatta l'ufficio vendite</a>
@@ -280,7 +280,7 @@
     </article>
     <!-- Footer -->
     <footer>
-        <div class="footer-table clearfix"> <!--  -->
+        <div class="footer-table clearfix"> 
             <div class="footer-coloumn float-left">
                 <h5>Dropbox</h5>
                 <a href="#">Applicazione desktop</a>
