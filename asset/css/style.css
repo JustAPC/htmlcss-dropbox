@@ -58,6 +58,17 @@ nav ul li a {
 .hover:hover{
     border-bottom: 2px solid black;
 }
+.dropdown {
+    position: relative;
+}
+.dropdown-content {
+    display: none;
+}
+.dropdown-content:hover {
+    display: block;
+    position: absolute;
+    min-width: 160px;
+}
 .button {
     background-color: #0061FF;
     padding: 10px 15px;
@@ -166,7 +177,7 @@ input[type="radio"] {
     width: 90%;
     margin: 0 auto;
 }
-.prova {
+.free-trial {
     text-align: center;
     background-color: #0061FF;
     padding: 4%;
@@ -177,7 +188,7 @@ input[type="radio"] {
     color: #0061FF;
     padding-bottom: 30%;
 }
-.prova a {
+.free-trial a {
     text-decoration: none;
     color: white;
     font-size: 0.9rem;
@@ -297,21 +308,24 @@ input[type="radio"] {
 }
 .affiliates-coloumn2{
     background-color: #F5F5F5;
-    height: 100%;
+    height: calc(62vh);
     width: calc(100% - 60vw);
     overflow: auto;
 }
 .affiliates {
     width: 50%;
     height: 50%;
-    border: 1px solid white;
 }
 .white {
-    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(109deg) brightness(101%) contrast(105%);
+    filter: invert(100%);
 }
-.designit{
-    width: 60%;
-    transform: translate(30%, 230%);
+.logo {
+    width: 50%;
+    vertical-align: middle;
+}
+.logo2 {
+    width: 20%;
+    transform: translate(50%, 100%);
 }
 .green {
     background-color: #A2D39B;
@@ -320,64 +334,32 @@ input[type="radio"] {
     -webkit-box-sizing: border-box;
     border: 10px solid #D0E9CD;
 }
-.arizona {
-    width: 50%;
-    transform: translate(50%, 90%);
-}
 .pink{
     background-color: #61082B;
-}
-.florida {
-    width: 60%;
-    transform: translate(30%, 400%);
 }
 .lightblue {
     background-color: #0093CE;
 }
-.topps {
-    width: 50%;
-    transform: translate(50%, 170%);
-}
 .orange {
     background-color: #FF1C1C;
-}
-.wbr{
-    width: 60%;
-    transform: translate(30%, 220%);
 }
 .red{
     background-color: #D5001F;
 }
-.hearst {
-    transform: translate(35%, 800%);
-    width: 60%;
-}
 .aqua {
     background-color: #B4D0E7;
-}
-.lonely{
-    width: 60%;
-    transform: translate(30%, 130%);
 }
 .blue {
     background-color: #0D2481;
 }
-.cco {
-    width: 60%;
-    transform: translate(30%, 80%);
-}
 .yellow{
     background-color: #FFD830;
-}
-.designit2 {
-    width: 20%;
-    transform: translate(50%, 100%);
 }
 .rule2 {
     height: 1px;
     width: 5%;
     background-color: #c4c4c4;
-    margin: 10%;
+    margin: 12% 0 5% 10%;
 }
 .affiliates-coloumn2 p {
     width: 80%;
@@ -417,7 +399,7 @@ input[type="radio"] {
 .faq p {
     display: none;
 }
-.faq h5:hover {
+.faq h5:hover .hover-content{
     display: block;
 }
 footer {
