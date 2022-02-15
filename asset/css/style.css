@@ -330,6 +330,7 @@ input[type="radio"] {
 }
 .logo {
     max-width: 50%;
+    line-height: 15vh;
     vertical-align: middle;
     text-align: center;
 }
