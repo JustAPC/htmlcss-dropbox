@@ -329,7 +329,7 @@ input[type="radio"] {
     filter: invert(100%);
 }
 .logo {
-    width: 50%;
+    max-width: 50%;
     vertical-align: middle;
     text-align: center;
 }
